@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: xx-large;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.book-list{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.book-list ul{
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.book-list li{
+  border: black solid 1px;
+  border-radius: 25px;
+  text-decoration: underline white;
+  height: 32px;
+  width: 512px;
+  margin:  10px auto 10px auto;
+  list-style: none;
+  display: block;
+  padding: 20px;
+}
+
+nav{
+  text-align: center;
+  margin: 15px auto 15px auto;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
 }
